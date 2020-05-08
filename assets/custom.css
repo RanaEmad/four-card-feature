@@ -156,3 +156,31 @@ footer {
     width: 300px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .cards {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .main .header .title {
+    font-size: 1.6em;
+  }
+  .main .header .subtitle {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+  }
+  .main .header .text {
+    font-size: 1em;
+    width: 85%;
+  }
+
+  .card {
+    width: 550px;
+    height: 214px;
+    padding: 20px;
+  }
+
+  .main {
+    padding: 80px 0;
+  }
+}
